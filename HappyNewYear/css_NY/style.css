@@ -1,0 +1,182 @@
+button:hover {
+    cursor: pointer;
+}
+
+.flake_style {
+    position: absolute;
+    z-index: 9999;
+    border-radius: 50%;
+    border: none;
+    pointer-events: none;
+}
+
+#new-year_decor {
+    background: url(../img_NY/decor_newyear.png) repeat-x 0 0;
+    overflow: hidden;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+
+    width: 100%;
+    height: 150px;
+}
+
+.new-year_ball {
+    position: absolute;
+}
+
+/*bounce1*/
+.bounce1 {
+    transform: rotate(50deg);
+    transition-duration: 200ms;
+}
+
+/*bounce2*/
+.bounce2 {
+    transform: rotate(-50deg);
+    transition-duration: 400ms;
+}
+
+/*bounce3*/
+.bounce3 {
+    transform: rotate(30deg);
+    transition-duration: 200ms;
+}
+
+/*bounce4*/
+.bounce4 {
+    transform: rotate(-30deg);
+    transition-duration: 400ms;
+}
+
+/*bounce5*/
+.bounce5 {
+    transform: rotate(15deg);
+    transition-duration: 200ms;
+}
+
+/*bounce6*/
+.bounce6 {
+    transform: rotate(-0deg);
+    transition-duration: 200ms;
+}
+
+.setting_panel {
+    position: absolute;
+    z-index: 99999;
+    background-color: white;
+
+    -webkit-box-shadow: 0px 5px 10px 11px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 0px 5px 10px 11px rgba(34, 60, 80, 0.2);
+    box-shadow: 0px 5px 10px 11px rgba(34, 60, 80, 0.2);
+
+    width: 300px;
+    height: 500px;
+
+    padding: 25px;
+
+    border: none;
+
+    margin-top: 0%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+    align-items: center;
+}
+
+.setting_panel_left {
+    margin-left: -1000px;
+    transition-duration: .2s;
+}
+
+.setting_panel_right {
+    margin-left: 0%;
+    transition-duration: .2s;
+}
+
+.panel_button {
+    position: absolute;
+
+    background-color: white;
+    width: 100px;
+    height: 100px;
+
+    border-radius: 50%;
+    border: none;
+
+    margin-left: -50px;
+    margin-top: -50px;
+
+    z-index: 999;
+}
+
+#setting_icon {
+    height: 25%;
+    width: 25%;
+    margin-left: 40%;
+    margin-top: 40%;
+    
+    z-index: 9999;
+}
+
+.slider {
+    width: 200px;
+}
+
+.button_set {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 25px;
+    width: 250px;
+}
+
+.setting_buttons {
+    width: 110px;
+    height: 25px;
+    background-color: rgb(109, 109, 255);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 0%;
+    border: none;
+}
+
+.form_flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    width: 250px;
+}
+
+.input_value {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.form_ny {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    height: 75%;
+}
+
+#snow_choose:hover {
+    color: rgb(109, 109, 255);
+    cursor: pointer;
+}
+
+#ball_choose:hover {
+    color: rgb(109, 109, 255);
+    cursor: pointer;
+}
+
+.deleted {
+    text-decoration: line-through;
+}
+
